@@ -51,7 +51,7 @@ variable "cpus" {
 }
 
 variable "disk_size" {
-  default = "30G"
+  default = "15G"
   type = string
   description = "The size in bytes of the hard disk of the VM"
 }
